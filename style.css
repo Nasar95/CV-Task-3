@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-top: 8px;
+} 
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+    flex-direction: column;
+    background-color: rgb(74, 72, 72);
+}
+
+#name {
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(226, 165, 51);
+
+}
+
+.user  {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px dotted orange;
+    
+}
+
+.top {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section .section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 6px;
+}
+.section .section1 label {
+    margin: 3px 0;
+}
+
+
+.section .section2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section .section2 input {
+    margin: 4px 0;
+}
